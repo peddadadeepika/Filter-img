@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        
+    </head>
+    <style>
+        body{
+            justify-content: center;
+        display: flex;
+        }
+        .image{
+
+            margin: 10px;
+            height: 200px;
+            width: 200px;
+            transition: .5s ease;
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        img{
+    
+            height: 100%;
+            width: 100%;
+        
+        }
+        p{
+            position: absolute;
+        margin-left: 15px;
+        font-size: 20px;
+    margin-top: -100px;
+            color: yellow;
+            font-weight: 700;
+            opacity: 0;
+        
+        }
+        .image:hover p{
+            opacity: 1;
+        }
+        .blur{
+            filter: blur(4px);
+        }
+        .brightness{
+            filter: brightness(150%);
+        }
+        .contrast{
+            filter: contrast(-100%);
+        }
+        .grayscale{
+            filter: grayscale(50%);
+        }
+        .huerotate{
+            filter: hue-rotate(360deg);
+        }
+        .invert{
+            filter: invert(20%);
+        }
+        .opacity{
+            filter: opacity(20);
+        }
+        .saturate{
+            filter: saturate(5);
+        }
+        .sepia{
+            filter: sepia(100%);
+        }
+    </style>
+    <body>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="blur">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="brightness">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="contrast">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="grayscale">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="huerotate">
+            <p>This it image</p>
+        </div>
+
+        <div class="image">
+            <img src="image4.jpg" alt="" class="invert">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="opacity">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="saturate">
+            <p>This it image</p>
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="" class="sepia">
+            <p>This it image</p>
+        </div>
+
+    </body>
+</html>
